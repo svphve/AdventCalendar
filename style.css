@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+}
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+    width: 80%;
+}
+.door {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+.door.opened {
+    background-color: green;
+}
